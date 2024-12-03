@@ -1,4 +1,3 @@
-
 ### PART 1
 p1_answer = 0
 nums1 = []
@@ -36,5 +35,5 @@ for num in nums2:
 for num in nums1:
     p2_answer += num * nums2_seen.get(num, 0)
 
-# print answer
+
 print(f'Part 2: {p2_answer}')
